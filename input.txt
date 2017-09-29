@@ -1,0 +1,15 @@
+3 3 0 0
+
+item: key_1 door_1 key 1 unlocks door 1
+item: key_2 door_2 key 2 unlocks door 2
+item: key_3 door_3 key 3 unlocks door 3
+
+room: 1 0 1 1 key_1 null description ( 0 , 0 )
+room: 1 0 1 0 null null description ( 1 , 0 )
+room: 1 1 0 0 null null description ( 2 , 0 )
+room: 1 0 2 1 null door_3 description ( 1 , 0 )
+room: 1 1 0 0 null null description ( 1 , 1 )
+room: 0 1 0 1 key_2 null description ( 1 , 2 )
+room: 1 1 1 1 null null finish
+room: 2 0 1 1 key_3 door_1 description ( 2 , 1 )
+room: 0 1 1 2 null door_2 description ( 2 , 2 )
